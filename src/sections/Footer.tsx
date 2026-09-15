@@ -40,7 +40,7 @@ export default function Footer() {
       {/* closing message */}
       <Reveal className="relative z-10 mx-auto mb-14 mt-4 flex max-w-sm flex-col items-center gap-4 px-6 text-center">
         <img src="/assets/mandala.png" alt="" className="w-14 opacity-80" />
-        <p className="font-script text-gold text-4xl leading-snug">
+        <p className="font-script text-gold text-4xl leading-[1.35] pt-2 pb-1 px-2">
           We can't wait to celebrate with you
         </p>
         <p className="text-[11px] uppercase tracking-[0.35em] text-[#f3e7d3]/60">

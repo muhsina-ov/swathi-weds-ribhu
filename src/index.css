@@ -59,6 +59,7 @@
 /* ── Typography helpers ─────────────────────────────── */
 .font-script {
   font-family: "Great Vibes", cursive;
+  overflow: visible;
 }
 .font-display {
   font-family: "Cormorant Garamond", serif;
@@ -76,6 +77,16 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  display: inline-block;
+  /* Crucial: provide ample padding so decorative flourishes aren't clipped by background-clip */
+  padding-top: 0.28em;
+  padding-bottom: 0.18em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  margin-top: -0.28em;
+  margin-bottom: -0.18em;
+  overflow: visible;
+  line-height: 1.35;
 }
 
 .text-outline-gold {

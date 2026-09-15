@@ -30,7 +30,7 @@ export default function Events() {
 
                 <div className="rounded-2xl border border-[#d9a441]/25 bg-white/[0.04] p-5 backdrop-blur-md transition-colors hover:border-[#d9a441]/50">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
-                    <h3 className="font-script text-gold text-3xl">{e.name}</h3>
+                    <h3 className="font-script text-gold text-3xl leading-[1.35] pt-1 pb-1 px-1">{e.name}</h3>
                     <span className="shrink-0 text-[10px] uppercase tracking-[0.15em] text-[#d9b36a]">
                       {e.date}
                     </span>

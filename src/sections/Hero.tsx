@@ -94,7 +94,7 @@ export default function Hero() {
           transition={{ delay: 0.75, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col items-center"
         >
-          <h1 className="font-script text-gold text-[20vw] leading-[1.15] sm:text-8xl">
+          <h1 className="font-script text-gold text-[20vw] leading-[1.3] pt-4 pb-2 px-3 sm:text-8xl">
             {wedding.bride}
           </h1>
           <div className="my-1 flex items-center gap-4">
@@ -102,7 +102,7 @@ export default function Hero() {
             <span className="text-gold font-display text-2xl leading-none">ॐ</span>
             <div className="hairline-gold w-14" />
           </div>
-          <h1 className="font-script text-gold text-[20vw] leading-[1.15] sm:text-8xl">
+          <h1 className="font-script text-gold text-[20vw] leading-[1.3] pt-4 pb-2 px-3 sm:text-8xl">
             {wedding.groom}
           </h1>
         </motion.div>
