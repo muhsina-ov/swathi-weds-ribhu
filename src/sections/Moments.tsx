@@ -15,23 +15,11 @@ const photos: PhotoItem[] = [
     src: "/assets/couple-photo-3.jpg",
     title: "Draped in Celebration",
     subtitle: "A breezy afternoon where two souls walk hand in hand",
-    span: "sm:col-span-2",
-  },
-  {
-    src: "/assets/couple-photo-1.jpg",
-    title: "Back to Back, Heart to Heart",
-    subtitle: "Our favorite spot, laughter, and endless conversations",
-    span: "sm:col-span-2",
   },
   {
     src: "/assets/couple-photo-2.jpg",
     title: "Gentle Laughter",
     subtitle: "Underneath old garden boughs sharing sweet smiles",
-  },
-  {
-    src: "/assets/couple-photo-4.jpg",
-    title: "Story of Us",
-    subtitle: "From cherished pages to our forever journey",
   },
 ];
 
@@ -44,8 +32,8 @@ export default function Moments() {
 
       <div className="mx-auto max-w-2xl">
         <Reveal className="mb-8 text-center">
-          <p className="font-display text-base italic tracking-wide text-[#f3e7d3]/75">
-            “Every picture tells a story of our smiles, our journey, and the love that brought us here.”
+          <p className="font-display text-base italic tracking-wide text-[#f3e7d3]/85">
+            “Moments of togetherness as they start a new journey”
           </p>
         </Reveal>
 

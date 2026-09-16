@@ -99,11 +99,11 @@ export default function IntroGate({
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
           />
-          <span className="font-display text-sm tracking-[0.35em] text-[#d9b36a]">
+          <span className="font-display text-xs sm:text-sm tracking-[0.22em] text-[#d9b36a]">
             {wedding.verse.hindi}
           </span>
-          <p className="text-[11px] uppercase tracking-[0.5em] text-[#f3e7d3]/70">
-            You are cordially invited to
+          <p className="text-[11px] uppercase tracking-[0.45em] text-[#f3e7d3]/80">
+            Wedding Reception of
           </p>
           <h1 className="font-script text-gold text-6xl leading-[1.35] pt-3 pb-2 px-2 sm:text-7xl">
             {wedding.bride} & {wedding.groom}

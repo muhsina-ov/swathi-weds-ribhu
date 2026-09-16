@@ -7,7 +7,7 @@ export default function AudioPlayer({ autoPlayTrigger }: { autoPlayTrigger?: boo
 
   useEffect(() => {
     // Create audio instance
-    const audio = new Audio("/assets/rangisari.m4a");
+    const audio = new Audio("/assets/shubhaarambh.mp3");
     audio.loop = true;
     audio.preload = "auto";
     audioRef.current = audio;
@@ -51,7 +51,7 @@ export default function AudioPlayer({ autoPlayTrigger }: { autoPlayTrigger?: boo
     <div className="fixed bottom-5 right-5 z-40">
       <button
         onClick={toggleAudio}
-        aria-label={isPlaying ? "Mute background music" : "Play Rangisari background music"}
+        aria-label={isPlaying ? "Mute background music" : "Play Shubhaarambh background music"}
         className="group flex items-center gap-2.5 rounded-full border border-[#d9a441]/50 bg-[#1e070c]/90 px-3.5 py-2.5 shadow-[0_4px_25px_rgba(217,164,65,0.3)] backdrop-blur-md transition-all duration-300 hover:border-[#d9a441] hover:scale-105 active:scale-95"
       >
         <div className="relative flex h-7 w-7 items-center justify-center rounded-full bg-[#d9a441]/20 text-[#e8c874]">
@@ -64,10 +64,10 @@ export default function AudioPlayer({ autoPlayTrigger }: { autoPlayTrigger?: boo
 
         <div className="hidden sm:flex flex-col text-left">
           <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#e8c874]">
-            {isPlaying ? "Rangisari" : "Play Rangisari"}
+            {isPlaying ? "Shubhaarambh" : "Play Music"}
           </span>
           <span className="text-[8px] tracking-wide text-[#f3e7d3]/50">
-            {isPlaying ? "Kanishk Seth · Kavita Seth" : "Click to play BGM"}
+            {isPlaying ? "Kai Po Che · Instrumental" : "Click to play BGM"}
           </span>
         </div>
 

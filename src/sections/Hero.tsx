@@ -82,7 +82,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.9 }}
-          className="font-display text-sm tracking-[0.3em] text-[#e8c874]"
+          className="font-display text-xs sm:text-sm tracking-[0.18em] sm:tracking-[0.25em] text-[#e8c874]"
         >
           {wedding.verse.hindi}
         </motion.p>

@@ -43,10 +43,41 @@ export default function Footer() {
         <p className="font-script text-gold text-4xl leading-[1.35] pt-2 pb-1 px-2">
           We can't wait to celebrate with you
         </p>
-        <p className="text-[11px] uppercase tracking-[0.35em] text-[#f3e7d3]/60">
-          With love, the Gupta & Pramanik families
-        </p>
-        <div className="hairline-gold mt-2 w-32" />
+
+        <div className="flex flex-col items-center gap-1 mt-1">
+          <p className="text-[11px] uppercase tracking-[0.35em] text-[#d9b36a]">
+            With Love,
+          </p>
+          <p className="font-display text-2xl text-[#f6e2ae] font-medium">
+            Rinku &amp; Partha Pramanik
+          </p>
+        </div>
+
+        {/* RSVP Details */}
+        <div className="mt-4 w-full rounded-2xl border border-[#d9a441]/40 bg-[#24080e]/85 p-5 shadow-[0_8px_30px_rgba(0,0,0,0.5)] backdrop-blur-md">
+          <p className="font-display text-xs uppercase tracking-[0.35em] text-[#e8c874] mb-3">
+            RSVP
+          </p>
+          <div className="flex flex-col gap-2.5 text-sm">
+            <a
+              href="tel:+919830499374"
+              className="flex items-center justify-between gap-3 text-[#f3e7d3]/90 transition-colors hover:text-[#e8c874]"
+            >
+              <span className="font-medium">Partha Pramanik</span>
+              <span className="font-mono text-[#d9b36a] text-xs sm:text-sm tracking-wider">9830499374</span>
+            </a>
+            <div className="h-px bg-[#d9a441]/20" />
+            <a
+              href="tel:+919692739302"
+              className="flex items-center justify-between gap-3 text-[#f3e7d3]/90 transition-colors hover:text-[#e8c874]"
+            >
+              <span className="font-medium">Poulomi Pramanik</span>
+              <span className="font-mono text-[#d9b36a] text-xs sm:text-sm tracking-wider">9692739302</span>
+            </a>
+          </div>
+        </div>
+
+        <div className="hairline-gold mt-3 w-32" />
         <p className="text-[10px] tracking-[0.2em] text-[#f3e7d3]/40">
           {wedding.hashtag}
         </p>
@@ -54,7 +85,7 @@ export default function Footer() {
           href="https://www.instagram.com/invitestory.in/"
           target="_blank"
           rel="noreferrer"
-          className="mt-3 text-[10px] uppercase tracking-[0.35em] text-[#d9b36a]/70 transition-colors hover:text-[#d9b36a]"
+          className="mt-2 text-[10px] uppercase tracking-[0.35em] text-[#d9b36a]/70 transition-colors hover:text-[#d9b36a]"
         >
           Follow @invitestory.in on Instagram
         </a>

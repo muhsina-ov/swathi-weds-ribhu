@@ -39,17 +39,17 @@ export default function Couple() {
         {/* names + parents */}
         <div className="mt-10 grid w-full grid-cols-1 gap-8 text-center sm:grid-cols-2">
           <Reveal delay={0.1} className="flex flex-col gap-1">
-            <h3 className="font-script text-gold text-4xl leading-[1.35] pt-2 pb-1 px-2">{wedding.brideFull}</h3>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-[#d9b36a]">The Bride</span>
-            <p className="mt-1 text-[12px] leading-relaxed tracking-wide text-[#f3e7d3]/70">
-              {wedding.brideParents}
+            <h3 className="font-script text-gold text-4xl leading-[1.35] pt-2 pb-1 px-2">{wedding.groomFull}</h3>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-[#d9b36a]">The Groom</span>
+            <p className="mt-1 text-[13px] leading-relaxed tracking-wide text-[#f3e7d3]/80 whitespace-pre-line">
+              {wedding.groomParents}
             </p>
           </Reveal>
           <Reveal delay={0.2} className="flex flex-col gap-1">
-            <h3 className="font-script text-gold text-4xl leading-[1.35] pt-2 pb-1 px-2">{wedding.groomFull}</h3>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-[#d9b36a]">The Groom</span>
-            <p className="mt-1 text-[12px] leading-relaxed tracking-wide text-[#f3e7d3]/70">
-              {wedding.groomParents}
+            <h3 className="font-script text-gold text-4xl leading-[1.35] pt-2 pb-1 px-2">{wedding.brideFull}</h3>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-[#d9b36a]">The Bride</span>
+            <p className="mt-1 text-[13px] leading-relaxed tracking-wide text-[#f3e7d3]/80 whitespace-pre-line">
+              {wedding.brideParents}
             </p>
           </Reveal>
         </div>

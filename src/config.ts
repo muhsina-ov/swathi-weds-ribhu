@@ -7,8 +7,8 @@ export const wedding = {
   groom: "Ribhu",
   brideFull: "Swati Gupta",
   groomFull: "Ribhu Pramanik",
-  brideParents: "Daughter of Smt. & Shri Gupta",
-  groomParents: "Son of Smt. & Shri Pramanik",
+  brideParents: "Daughter of Mr. Sanjay Gupta & Mrs. Sangeeta Gupta\n(Veerangna Nagar, Jhansi)",
+  groomParents: "Son of Mr. Partha Pramanik & Mrs. Rinku Pramanik",
   hashtag: "#SwatiWedsRibhu",
   monogram: "S · R",
 
@@ -19,14 +19,14 @@ export const wedding = {
 
   venue: {
     name: "Swapno Bhor (Seniors' Park)",
-    address: "Action Area I, New Town, Kolkata, West Bengal 700156",
+    address: "BF 04, Action Area-1, New Town, Kolkata 700156",
     mapsQuery: "Swapno Bhor Seniors Park Newtown Kolkata",
     directUrl: "https://maps.app.goo.gl/UchqNP23Zeeed2yG8",
   },
 
   verse: {
-    hindi: "॥ श्री गणेशाय नमः ॥",
-    text: "Together with their families, Swati and Ribhu cordially request the honour of your presence to celebrate their Wedding Reception as two beautiful traditions unite in love.",
+    hindi: "!! Shree Shree Prajapataye Namah !!",
+    text: "Rinku & Partha Pramanik cordially invite you to grace the Wedding Reception of their beloved son, Ribhu, and Swati.",
   },
 
   // The event for the day — Wedding Reception
@@ -37,7 +37,7 @@ export const wedding = {
       date: "Tuesday, 8th December 2026",
       time: "6:30 PM Onwards",
       venue: "Swapno Bhor (Seniors' Park), New Town, Kolkata",
-      note: "An auspicious evening celebrating the confluence of Bengali & North Indian traditions, dinner & festivities.",
+      note: "An auspicious evening celebrating the joyous union of two families with festivities and blessings",
     },
   ],
 };
