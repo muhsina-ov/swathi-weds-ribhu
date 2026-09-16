@@ -137,13 +137,14 @@ draw.text((105, 438), "Swapno Bhor (Seniors' Park)", font=font_serif_bold_detail
 draw.text((105, 460), "BF 04, Action Area-1, New Town, Kolkata 700156", font=font_serif_details, fill=(243, 231, 211, 180))
 
 # Bottom Badge
-badge_box = [65, 522, 380, 564]
+badge_box = [65, 522, 390, 564]
 draw.rounded_rectangle(badge_box, radius=21, fill=(33, 7, 12, 230), outline=(217, 164, 65, 140), width=1)
 # Draw small diamond icon instead of unicode character
 draw.regular_polygon((84, 543, 5), 4, fill=(217, 164, 65, 230))
-draw.text((98, 533), "swati-weds-ribhu.invitingyou.top", font=font_badge, fill=(232, 200, 116, 240))
+draw.text((98, 533), "swathi-weds-ribhu.invitingyou.top", font=font_badge, fill=(232, 200, 116, 240))
 
-# Convert to RGB and save
+# Convert to RGB and save both
 final_rgb = bg.convert("RGB")
 final_rgb.save("public/assets/og-image.jpg", "JPEG", quality=95, optimize=True)
-print("OG Image generated successfully at public/assets/og-image.jpg")
+final_rgb.save("public/assets/og-card.jpg", "JPEG", quality=95, optimize=True)
+print("OG Image generated successfully at public/assets/og-image.jpg and public/assets/og-card.jpg")
