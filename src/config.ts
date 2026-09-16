@@ -11,6 +11,7 @@ export const wedding = {
   groomParents: "Son of Mr. Partha Pramanik & Mrs. Rinku Pramanik",
   hashtag: "#SwatiWedsRibhu",
   monogram: "S · R",
+  productionUrl: "https://swati-weds-ribhu.invitingyou.top",
 
   // Wedding reception muhurat (countdown + calendar target)
   dateISO: "2026-12-08T18:30:00+05:30",
