@@ -6,18 +6,9 @@ export default function Couple() {
   return (
     <section className="relative overflow-hidden px-6 py-24">
       <Aurora className="opacity-60" />
-      <SectionHeading kicker="Two Traditions · One Love" title="The Happy Couple" />
+      <SectionHeading kicker="Two Hearts · One Love" title="The Happy Couple" />
 
       <div className="relative mx-auto flex max-w-md flex-col items-center">
-        {/* Cultural union badge */}
-        <Reveal className="mb-6">
-          <div className="inline-flex items-center gap-2 rounded-full border border-[#d9a441]/40 bg-[#2b0a10]/80 px-4 py-1.5 text-[11px] uppercase tracking-[0.25em] text-[#e8c874] shadow-[0_4px_20px_rgba(217,164,65,0.15)] backdrop-blur-md">
-            <span>Bengali Groom</span>
-            <span className="text-[#d9a441]/50">✦</span>
-            <span>North Indian Bride</span>
-          </div>
-        </Reveal>
-
         {/* illustration with glow */}
         <Reveal className="relative">
           <div
