@@ -107,8 +107,8 @@ draw.line([(65, 84), (240, 84)], fill=(217, 164, 65, 160), width=1)
 kicker_text = "WEDDING RECEPTION INVITATION"
 draw.text((65, 102), kicker_text, font=font_serif_h3, fill=(232, 200, 116, 255))
 
-# Names: Swati & Ribhu (with subtle gold shadow)
-names_text = "Swati & Ribhu"
+# Names: Ribhu & Swati (with subtle gold shadow)
+names_text = "Ribhu & Swati"
 # Shadow
 draw.text((67, 137), names_text, font=font_script_huge, fill=(30, 6, 10, 220))
 draw.text((65, 135), names_text, font=font_script_huge, fill=(246, 226, 174, 255))
@@ -143,8 +143,9 @@ draw.rounded_rectangle(badge_box, radius=21, fill=(33, 7, 12, 230), outline=(217
 draw.regular_polygon((84, 543, 5), 4, fill=(217, 164, 65, 230))
 draw.text((98, 533), "swathi-weds-ribhu.invitingyou.top", font=font_badge, fill=(232, 200, 116, 240))
 
-# Convert to RGB and save both
+# Convert to RGB and save all locations
 final_rgb = bg.convert("RGB")
 final_rgb.save("public/assets/og-image.jpg", "JPEG", quality=95, optimize=True)
 final_rgb.save("public/assets/og-card.jpg", "JPEG", quality=95, optimize=True)
-print("OG Image generated successfully at public/assets/og-image.jpg and public/assets/og-card.jpg")
+final_rgb.save("public/og-card.jpg", "JPEG", quality=95, optimize=True)
+print("OG Image generated successfully at public/assets/og-image.jpg, public/assets/og-card.jpg, and public/og-card.jpg")

@@ -17,19 +17,9 @@ const photos: PhotoItem[] = [
     subtitle: "A breezy afternoon where two souls walk hand in hand",
   },
   {
-    src: "/assets/couple-photo-4.jpg",
-    title: "Story of Us",
-    subtitle: "From cherished pages to our forever journey",
-  },
-  {
     src: "/assets/couple-photo-2.jpg",
     title: "Gentle Laughter",
     subtitle: "Underneath old garden boughs sharing sweet smiles",
-  },
-  {
-    src: "/assets/couple-photo-1.jpg",
-    title: "Back to Back, Heart to Heart",
-    subtitle: "Our favorite spot, laughter, and endless conversations",
   },
 ];
 
