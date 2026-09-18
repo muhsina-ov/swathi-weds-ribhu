@@ -7,7 +7,7 @@ export const wedding = {
   groom: "Ribhu",
   brideFull: "Swati Gupta",
   groomFull: "Ribhu Pramanik",
-  brideParents: "Daughter of Mr. Sanjay Gupta & Mrs. Sangeeta Gupta",
+  brideParents: "Daughter of Mr. Sanjay Gupta & Mrs. Sangeeta Gupta\n(Veerangna Nagar, Jhansi)",
   groomParents: "Son of Mr. Partha Pramanik & Mrs. Rinku Pramanik",
   hashtag: "#SwatiWedsRibhu",
   monogram: "S · R",
